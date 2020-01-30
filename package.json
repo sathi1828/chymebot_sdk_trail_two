@@ -11,6 +11,10 @@
     "url": "git+https://github.com/sathi1828/chymebot_sdk_trail_two.git"
   },
   "author": "",
+  "dependencies": {
+    "@types/ioredis": "^4.0.14",
+    "@types/node": "^12.6.8"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sathi1828/chymebot_sdk_trail_two/issues"
