@@ -1,0 +1,19 @@
+{
+  "name": "chymebot-sdk",
+  "version": "1.0.0",
+  "description": "sdk",
+  "main": "dist/lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sathi1828/chymebot_sdk_trail_two.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sathi1828/chymebot_sdk_trail_two/issues"
+  },
+  "homepage": "https://github.com/sathi1828/chymebot_sdk_trail_two#readme"
+}
