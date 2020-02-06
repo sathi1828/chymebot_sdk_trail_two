@@ -36,8 +36,8 @@ var Validator = /** @class */ (function (_super) {
     /**
         @constructor calls the base class and instantiates the cache
     */
-    function Validator(cache, runner) {
-        return _super.call(this, cache, runner) || this;
+    function Validator(cache) {
+        return _super.call(this, cache) || this;
     }
     /**
         @method accept this method is used to indicate that the input is acceptable.

@@ -37,8 +37,8 @@ var PreValidator = /** @class */ (function (_super) {
     /**
         @constructor calls the base class and instantiates the cache
     */
-    function PreValidator(cache, runner) {
-        return _super.call(this, cache, runner) || this;
+    function PreValidator(cache) {
+        return _super.call(this, cache) || this;
     }
     /**
         @method required this method is called when the user needs to enter a value for a parameter.

@@ -1,6 +1,5 @@
 import { Cache } from "./cache";
 import { ApiBase } from "./apiBase";
-import { Runner } from "./runner";
 /**
     @class OnBoarding-
 
@@ -11,6 +10,6 @@ declare class OnBoarding extends ApiBase {
     /**
         @constructor -
     */
-    constructor(cache: Cache, runner: Runner);
+    constructor(cache: Cache);
 }
 export { OnBoarding };

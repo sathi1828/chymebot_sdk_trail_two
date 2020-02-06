@@ -25,8 +25,8 @@ var ValidatorBase = /** @class */ (function (_super) {
     /**
         @constructor initialise redis cache
     */
-    function ValidatorBase(cache, runner) {
-        return _super.call(this, cache, runner) || this;
+    function ValidatorBase(cache) {
+        return _super.call(this, cache) || this;
     }
     Object.defineProperty(ValidatorBase.prototype, "param", {
         get: function () {

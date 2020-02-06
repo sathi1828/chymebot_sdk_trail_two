@@ -4,5 +4,6 @@ declare class RunnerImplementar extends Runner {
     add(): void;
     get(): void;
     delete(): void;
+    wait(): void;
 }
 export { RunnerImplementar };

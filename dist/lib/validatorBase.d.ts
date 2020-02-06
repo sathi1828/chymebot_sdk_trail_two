@@ -1,7 +1,6 @@
 import { ApiBase } from './apiBase';
 import { Parameter } from './parameter';
 import { Cache } from './cache';
-import { Runner } from './runner';
 /**
     @class ValidatorBase- This class acts as a base class for validator and prevalidator.
 
@@ -18,7 +17,7 @@ declare class ValidatorBase extends ApiBase {
     /**
         @constructor initialise redis cache
     */
-    constructor(cache: Cache, runner: Runner);
+    constructor(cache: Cache);
     get param(): Parameter;
     set param(param: Parameter);
     get validatedParams(): Parameter[];

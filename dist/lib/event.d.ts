@@ -2,7 +2,6 @@ import { Cache } from './cache';
 import { ApiBase } from './apiBase';
 import { Parameter } from './parameter';
 import { Message } from './message';
-import { Runner } from './runner';
 /**
     @class Event-
 
@@ -17,7 +16,7 @@ declare class Event extends ApiBase {
     /**
         @constructor initialise redis cache
     */
-    constructor(cache: Cache, runner: Runner);
+    constructor(cache: Cache);
     /**
         @method getInput - this method is used to get the input
         @param param -

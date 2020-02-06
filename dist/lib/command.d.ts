@@ -1,7 +1,6 @@
 import { Cache } from './cache';
 import { Event } from './event';
 import { Message } from './message';
-import { Runner } from './runner';
 /**
 
     @class Command-
@@ -13,7 +12,7 @@ declare class Command extends Event {
     /**
         @constructor - initialise the cache
     */
-    constructor(cache: Cache, runner: Runner);
+    constructor(cache: Cache);
     /**
         @method reply - this method is used to reply back to the user
     */

@@ -1,7 +1,6 @@
 import { FollowUp } from './followUp';
 import { ValidatorBase } from './validatorBase';
 import { Cache } from './cache';
-import { Runner } from './runner';
 /**
 
     @class Validator- This class is used to validate the input for the parameter and returns validated result back to user
@@ -12,7 +11,7 @@ declare class Validator extends ValidatorBase {
     /**
         @constructor calls the base class and instantiates the cache
     */
-    constructor(cache: Cache, runner: Runner);
+    constructor(cache: Cache);
     /**
         @method accept this method is used to indicate that the input is acceptable.
     */

@@ -7,8 +7,7 @@ var ApiBase = /** @class */ (function () {
     /**
         @constructor initialise all the necessary params and redis cache
     */
-    function ApiBase(cache, runner) {
-        this._runner = runner;
+    function ApiBase(cache) {
         this._cache = cache;
     }
     Object.defineProperty(ApiBase.prototype, "cache", {
@@ -105,15 +104,6 @@ var ApiBase = /** @class */ (function () {
         enumerable: true,
         configurable: true
     });
-    ApiBase.prototype.add = function () {
-        this._runner.add();
-    };
-    ApiBase.prototype.get = function () {
-        this._runner.get();
-    };
-    ApiBase.prototype.delete = function () {
-        this._runner.delete();
-    };
     /**
         @method setResult - this method is called to set the result into a json
         @param json - json which holds the final result.

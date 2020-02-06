@@ -25,8 +25,8 @@ var OnBoarding = /** @class */ (function (_super) {
     /**
         @constructor -
     */
-    function OnBoarding(cache, runner) {
-        return _super.call(this, cache, runner) || this;
+    function OnBoarding(cache) {
+        return _super.call(this, cache) || this;
     }
     return OnBoarding;
 }(apiBase_1.ApiBase));

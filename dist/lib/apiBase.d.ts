@@ -1,7 +1,6 @@
 import { Cache } from './cache';
 import { Message } from './message';
 import { Context } from './context';
-import { Runner } from './runner';
 /**
     @class ApiBase - This class is root class for the sdk and initialises all the necessary params
 */
@@ -26,11 +25,10 @@ declare abstract class ApiBase {
     private _conversationId;
     private _context;
     private _messenger;
-    private _runner;
     /**
         @constructor initialise all the necessary params and redis cache
     */
-    constructor(cache: Cache, runner: Runner);
+    constructor(cache: Cache);
     get cache(): Cache;
     set cache(cache: Cache);
     get result(): string;
@@ -49,9 +47,6 @@ declare abstract class ApiBase {
     set context(context: Context[]);
     get messenger(): string;
     set messenger(name: string);
-    add(): void;
-    get(): void;
-    delete(): void;
     /**
         @method setResult - this method is called to set the result into a json
         @param json - json which holds the final result.

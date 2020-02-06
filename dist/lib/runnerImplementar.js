@@ -28,6 +28,8 @@ var RunnerImplementar = /** @class */ (function (_super) {
     RunnerImplementar.prototype.delete = function () {
         console.log('method delete is called');
     };
+    RunnerImplementar.prototype.wait = function () {
+    };
     return RunnerImplementar;
 }(runner_1.Runner));
 exports.RunnerImplementar = RunnerImplementar;

@@ -26,8 +26,8 @@ var Command = /** @class */ (function (_super) {
     /**
         @constructor - initialise the cache
     */
-    function Command(cache, runner) {
-        return _super.call(this, cache, runner) || this;
+    function Command(cache) {
+        return _super.call(this, cache) || this;
     }
     /**
         @method reply - this method is used to reply back to the user

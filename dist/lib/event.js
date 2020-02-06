@@ -25,8 +25,8 @@ var Event = /** @class */ (function (_super) {
     /**
         @constructor initialise redis cache
     */
-    function Event(cache, runner) {
-        return _super.call(this, cache, runner) || this;
+    function Event(cache) {
+        return _super.call(this, cache) || this;
     }
     /**
         @method getInput - this method is used to get the input
