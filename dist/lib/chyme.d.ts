@@ -28,4 +28,4 @@ declare class Chyme {
     getEvent(): Event;
     getOnBoarding(): OnBoarding;
 }
-export { Chyme };
+export { Chyme, PreValidator, Validator };

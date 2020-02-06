@@ -1,7 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var preValidator_1 = require("./preValidator");
+exports.PreValidator = preValidator_1.PreValidator;
 var validator_1 = require("./validator");
+exports.Validator = validator_1.Validator;
 var command_1 = require("./command");
 var event_1 = require("./event");
 var onBoarding_1 = require("./onBoarding");

@@ -1,2 +1,1 @@
-import { Chyme } from './chyme';
-export { Chyme };
+export { Chyme, PreValidator, Validator } from './chyme';
